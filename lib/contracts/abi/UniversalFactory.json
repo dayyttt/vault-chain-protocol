@@ -102,6 +102,11 @@
             "type": "bytes32"
           },
           {
+            "internalType": "address",
+            "name": "originalToken",
+            "type": "address"
+          },
+          {
             "internalType": "string",
             "name": "name",
             "type": "string"
@@ -155,7 +160,7 @@
         "type": "bytes"
       }
     ],
-    "stateMutability": "view",
+    "stateMutability": "pure",
     "type": "function"
   },
   {
@@ -166,6 +171,11 @@
             "internalType": "bytes32",
             "name": "originTokenId",
             "type": "bytes32"
+          },
+          {
+            "internalType": "address",
+            "name": "originalToken",
+            "type": "address"
           },
           {
             "internalType": "string",
@@ -244,6 +254,11 @@
             "type": "bytes32"
           },
           {
+            "internalType": "address",
+            "name": "originalToken",
+            "type": "address"
+          },
+          {
             "internalType": "string",
             "name": "name",
             "type": "string"
@@ -316,9 +331,9 @@
   {
     "inputs": [
       {
-        "internalType": "bytes32",
-        "name": "originTokenId",
-        "type": "bytes32"
+        "internalType": "address",
+        "name": "originalToken",
+        "type": "address"
       }
     ],
     "name": "saltFor",
